@@ -1,5 +1,5 @@
 {
-  "name": "angular-todos",
+  "name": "car-inventory",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,17 +19,19 @@
     "@angular/platform-browser": "~10.2.0",
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
+    "cors": "^2.8.5",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1002.0",
-    "@angular/cli": "~10.2.0",
+    "@angular/cli": "^12.2.4",
     "@angular/compiler-cli": "~10.2.0",
-    "@types/node": "^12.11.1",
+    "@nativescript/schematics": "^11.2.0",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",

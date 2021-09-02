@@ -9,3 +9,7 @@ Special acknowledgment to Marcos Rivas R for share your project in GitHub, which
 
 ##Agradecimientos
 Agradecimiento especial a Marcos Rivas R por compartir su proyecto en GitHub, el cual fue usado como base para el desarrollo de esta aplicación. 
+
+ng config -g cli.warnings.versionMismatch false
+npm install --save-dev @angular/cli@latest 
+npm install cors
