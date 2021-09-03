@@ -1,4 +1,11 @@
-menu{
-    background: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
+div{
+    background: url(/assets/cars-background2.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:0;
+    right: 0;
 }

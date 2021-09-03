@@ -1,3 +1,4 @@
+<div class="background-rows">
 <div class="row" [ngClass]="setClasses()">
     <div class="title">
         <input type="checkbox" (change)="onToggle(item)" [checked]="item.completed">
@@ -15,4 +16,5 @@
     <div class="actions">
         <button (click)="onDelete(item)">Eliminar</button>
     </div>
+</div>
 </div>

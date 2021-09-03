@@ -17,32 +17,6 @@ export class ItemService {
 
   constructor(private http:HttpClient) { }
 
-
-  /* getItems(){
-    return [
-      {
-        id: 0,
-        title: 'manzana',
-        price: 20,
-        quantity: 4,
-        completed: false
-      },
-      {
-        id: 0,
-        title: 'leche',
-        price: 20,
-        quantity: 4,
-        completed: true
-      },
-      {
-        id: 0,
-        title: 'leche',
-        price: 20,
-        quantity: 4,
-        completed: true
-      }
-    ];
-  } */
   getItems():Observable<Item[]>{
     return this.http.get<Item[]>(this.url);
   }

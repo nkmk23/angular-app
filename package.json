@@ -1,5 +1,5 @@
 {
-  "name": "car-inventory",
+  "name": "angular-todos",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,14 +19,13 @@
     "@angular/platform-browser": "~10.2.0",
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
-    "cors": "^2.8.5",
     "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
+    "tslib": "^2.3.1",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1002.0",
-    "@angular/cli": "^12.2.4",
+    "@angular/cli": "~10.2.0",
     "@angular/compiler-cli": "~10.2.0",
     "@nativescript/schematics": "^11.2.0",
     "@types/jasmine": "~3.5.0",
@@ -44,5 +43,17 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosrivasr/angular-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosrivasr/angular-app/issues"
+  },
+  "homepage": "https://github.com/marcosrivasr/angular-app#readme"
 }
